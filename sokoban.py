@@ -155,7 +155,7 @@ def main(lvl,life,pause):
     first_move = 0
     saved_lvl = print_file("lvl.txt")
     saved_lvl = int(saved_lvl)
-    SLEEP_TIME = 60
+    SLEEP_TIME = 60*15
     end_level = 2
     while True:
         print("Inside")
